@@ -1,0 +1,56 @@
+h1 {
+  float: left;
+  margin: 0 auto;
+  color: rgb(100, 99, 99);
+  font-size: 200px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#city {
+  float: left;
+  margin: 0 auto;
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  color: red;
+  font-weight: 300px;
+  font: bolder;
+}
+
+body {
+  background-color: white;
+}
+
+.row {
+  font-size: 30px;
+}
+
+.container {
+  width: 200%;
+}
+
+img {
+  float: right;
+  position: relative;
+  right: 30%;
+  left: 1%;
+  max-width: 600%;
+  margin: 0 auto;
+  display: block;
+}
+
+.cityTnd {
+  float: left;
+  margin: 0 auto;
+  color: rgb(209, 44, 44);
+  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#celsius,
+#fahrenheit {
+  color: #93288f;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}

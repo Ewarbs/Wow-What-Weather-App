@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://kit.fontawesome.com/030124cd01.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <form id="search-form">
+            <input id="city-input" type="text" placeholder="Enter your city" autocomplete="off" />
+            <input class="button" type="submit" value="search" />
+            </button>
+            <button type="button" id="current-button" class="btn btn-outline-success">
+                Current
+            </button>
+        </form>
+        <br>
+        <h1>
+            <span class="currentTemp" id="temp">25&#176;</span>
+            <img src="images/Sungirl.png" width="50%" alt="Girl sat on the sun!">
+            <div class="cityTnd">
+
+                <h1 id="city">London</h1>
+
+                <br>
+                <h2 id="time">time</h2>
+                <h2 id="date">date</h2>
+                <h2 id="humidity">humidity</h2>
+                <h2 id="windSpeed">windSpeed</h2>
+                <h2 id="description">description</h2>
+            </div>
+            <span>
+                <div class="container">
+                    <div class="row row-cols-6" style="background-color:white; width:100%;">
+                        <div class="col">14/20</div>
+                        <div class="col">15/20</div>
+                        <div class="col">16/20</div>
+                        <div class="col">17/20</div>
+                        <div class="col">18/20</div>
+                        <div class="col">19/20</div>
+                        <div class="col">19&#176;</div>
+                        <div class="col">22&#176;</div>
+                        <div class="col">28&#176;</div>
+                        <div class="col">15&#176;</div>
+                        <div class="col">13&#176;</div>
+                        <div class="col">30&#176;</div>
+                        <div class="col">☁</div>
+                        <div class="col">☀</div>
+                        <div class="col">☀</div>
+                        <div class="col">☁</div>
+                        <div class="col">☁</div>
+                        <div class="col">☀</div>
+                    </div>
+                </div>
+    </div>
+    </span>
+    <span class="units">
+        <a href="#" id="celsius">°C</a> |
+        <a href="#" id="fahrenheit">°F</a>
+    </span>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
